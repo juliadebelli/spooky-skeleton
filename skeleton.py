@@ -24,7 +24,7 @@ project_config = """config = {{
   "download_url": ""
   "author_email": ""
   "version": 0.1.0,
-  "install_requires": [],
+  "install_requires": ["nose2"],
   "packages": ["{project_name}"],
   "scripts": [],
   "name": "{project_name}"
@@ -126,7 +126,6 @@ def make_dir_exists_message(dirname):
 
 if __name__ == "__main__":
   if len(sys.argv) < 2:
-    print(usage_message)
-    
+    print(usage_message)    
   else:
     create_dir_structure(sys.argv[1])

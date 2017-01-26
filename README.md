@@ -45,7 +45,7 @@ argument and returning a string.
 
 If VALUE is None, an empty file will be created.
 
-If VALUE is a string, a file will be created with the specificied string as
+If VALUE is a string, a file will be created with the specified string as
 its content.
 
 If VALUE is a function, it will be called with the project's name as its 
